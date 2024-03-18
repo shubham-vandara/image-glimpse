@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" href="https://i.ibb.co/mBqpwhV/sv-circle-logo.png" />
+    <!-- Add your meta tags here -->
+    <meta
+      name="description"
+      content="Imagify is a powerful image search tool that helps you discover beautiful and high-quality images. Explore a wide range of topics and find the perfect images for your projects."
+    />
+    <meta
+      name="keywords"
+      content="image search, photo search, image gallery, photography, stock photos"
+    />
+    <meta name="author" content="Shubham Vandara" />
+    <meta property="og:title" content="Imagify: Discover Beautiful Images" />
+    <meta
+      property="og:description"
+      content="Imagify is a powerful image search tool that helps you discover beautiful and high-quality images. Explore a wide range of topics and find the perfect images for your projects."
+    />
+    <!-- End of meta tags -->
+    <title>Imagify: Discover Beautiful Images</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- IMPORT GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <!-- IMPORT ICON FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- HEADER PART -->
+    <canvas id="gradient-canvas"></canvas>
+    <header>
+      <h1>Imagify: Discover Beautiful Images</h1>
+      <p>
+        Welcome to Imagify, your go-to destination for discovering stunning
+        images for any occasion. Use our powerful image search tool to explore a
+        vast collection of high-quality photos, perfect for enhancing your
+        projects, presentations, websites, and more. Simply enter your desired
+        search term and let Imagify inspire your creativity!
+      </p>
+
+      <!-- SEARCH FORM -->
+      <form id="searchForm" action="">
+        <div class="search-container">
+          <!-- SEARCH INPUT -->
+          <input
+            type="text"
+            placeholder="Search Image"
+            class="search-input"
+            name=""
+            id=""
+          />
+          <!-- SEARCH BUTTON -->
+          <button id="searchButton" type="submit">
+            <span class="material-symbols-rounded icon" alt="Search Icon">
+              search
+            </span>
+          </button>
+        </div>
+      </form>
+    </header>
+    <main>
+      <section>
+        <!-- IMAGE CONTAINER -->
+        <div class="image-container"></div>
+        <!-- LOAD MORE BUTTON -->
+        <button class="loadMoreButton">Load More</button>
+      </section>
+    </main>
+    <!-- CDN FOR AXIOS LIBRARY -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <!-- JAVASCRIPT FILE -->
+    <script defer src="gradient.js"></script>
+    <script defer src="app.js"></script>
+  </body>
+</html>
