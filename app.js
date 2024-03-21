@@ -18,6 +18,7 @@ const fetchImages = async (query, pageNo) => {
     // If it's the first page, clear existing images in the container
     if (page === 1) {
       imageContainer.innerHTML = "";
+      loadMoreButton.style.display = "none";
     }
     // Set maximum width for the image container
     imageContainer.style.maxWidth = "90%";

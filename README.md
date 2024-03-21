@@ -1,10 +1,10 @@
-# Imagify
+# Image Glimpse
 
-Imagify is a project that utilizes the Unsplash API to fetch high-quality images for various purposes.
+Image Glimpse is a project that utilizes the Unsplash API to fetch high-quality images for various purposes.
 
 ## Description
 
-Imagify is designed to simplify the process of accessing and integrating high-quality images into your projects. With just a few lines of code, you can retrieve stunning images from Unsplash's vast library, enhancing the visual appeal of your applications, websites, or any other projects.
+Image Glimpse is designed to simplify the process of accessing and integrating high-quality images into your projects. With just a few lines of code, you can retrieve stunning images from Unsplash's vast library, enhancing the visual appeal of your applications, websites, or any other projects.
 
 ## Features
 
@@ -34,7 +34,7 @@ Before getting started, you need to obtain an API key from Unsplash. Follow thes
 1. Clone this repository to your local machine:
    
     ```bash
-    git clone https://github.com/shubham-vandara/Imagify.git
+    git clone https://github.com/shubham-vandara/Image-Glimpse.git
     ```
 
 2. Open the project directory in your code editor.
