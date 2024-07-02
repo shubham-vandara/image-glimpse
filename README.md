@@ -34,7 +34,7 @@ Before getting started, you need to obtain an API key from Unsplash. Follow thes
 1. Clone this repository to your local machine:
    
     ```bash
-    git clone https://github.com/shubham-vandara/Image-Glimpse.git
+    git clone https://github.com/shubham-vandara/image-glimpse.git
     ```
 
 2. Open the project directory in your code editor.
