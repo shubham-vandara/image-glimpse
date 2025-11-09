@@ -36,7 +36,7 @@ A React application that allows users to search and view images from Unsplash wi
    ```
 2. Navigate to the project directory:
    ```bash
-   cd image-glimpse-react
+   cd image-glimpse
    ```
 3. Install the dependencies:
    ```bash

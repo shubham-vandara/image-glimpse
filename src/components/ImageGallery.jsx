@@ -9,6 +9,7 @@ import {
   isFavorited,
 } from "../utils/favorites";
 import toast from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 export default function ImageGallery() {
   const accessKey = import.meta.env.VITE_UNSPLASH_ACCESS_KEY; // Put your key here 🔑
@@ -76,12 +77,12 @@ export default function ImageGallery() {
             Discover stunning high-resolution photography. Search anything —
             scroll forever — stay inspired.
           </p>
-          <a
-            href="/favorites"
+          <Link
+            to="/favorites"
             className="text-gray-200 text-md sm:text-xl mt-3 block hover:text-white"
           >
             View Favorites ❤️
-          </a>
+          </Link>
         </div>
       </motion.div>
 
